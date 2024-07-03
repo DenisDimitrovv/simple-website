@@ -1,0 +1,134 @@
+.body {
+    background-color: whitesmoke;
+}
+
+.navbar {
+    cursor: default;
+    float: right;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar button {
+    border: none;
+    color: black;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: montserrat, sans-serif;
+    background-color: rgb(199, 197, 197);
+}
+
+.navbar button:hover {
+    background-color:grey;
+    transition: .10s ease-in-out;
+}
+
+.navbar ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgb(31, 190, 196);
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section {
+    background-color: floralwhite;
+    margin-top: 50px;
+    font-family: montserrat, sans-serif;
+    float: center;
+    margin: auto;
+    text-align: center;
+}
+
+
+.h1 {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    font-family: montserrat, sans-serif;
+}
+
+.column {
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    gap: 30px;
+}
+
+.education {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 0 16px;
+    float: center;
+    text-align: center;
+    background-color: grey;
+    font-family: montserrat, sans-serif;
+}
+
+.achievements {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 0 16px;
+    float: center;
+    text-align: center;
+    background-color: grey;
+    font-family: montserrat, sans-serif;
+}
+
+.certificates {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 0 16px;
+    float: center;
+    text-align: center;
+    background-color: grey;
+    font-family: montserrat, sans-serif;
+}
+
+.projects {
+    float: center;
+}
+
+.project-section {
+    background-color: floralwhite;
+    margin-top: 50px;
+    font-family: montserrat, sans-serif;
+    float: center;
+    margin: auto;
+    text-align: center;
+}
+
+.about-section img {
+    border-radius: 4%;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.contact submit {
+    background-color: blue;
+}

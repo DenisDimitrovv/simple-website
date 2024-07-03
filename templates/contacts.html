@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block title %}Contacts{% endblock %}
+
+{% block content %}
+
+<h1 class="h1">Contacts</h1>
+
+
+<section class="contact-section">
+    <form method="POST" action="{{ url_for('contacts') }}">
+        <div class="contact">
+            <input type="text" name="contact-subject" placeholder="Subject"><br>
+            <input type="text" name="contact-body" placeholder="Body" style="height: 200px;""><br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</section>
+
+
+{% endblock %}

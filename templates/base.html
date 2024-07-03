@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}  {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body class="body">
+
+    <header>
+        <div class="logo">
+            <a href="/"><img src="/static/img/logo.png" alt="Logo" class="logo"></a>
+        </div>
+    </header>
+
+    <div class="navbar">
+        <ul>
+            <a href="/"><button>About me</button></a>
+            <a href="myprojects"><button>My projects</button></a>
+            <a href="contacts"><button>Contacts</button></a>
+        </ul>
+    </div>
+
+
+    {% block content %}
+
+    {% endblock %}
+
+
+
+
+
+
+    
+</body>
+</html>
